@@ -29,7 +29,7 @@ install.packages("tidyverse")     # loading the tidyverse
 
 ### Try to install these packages
 install.packages("sjstats") # data/variable transformations
-instal.packages("Hmisc")    # summary functions
+install.packages("Hmisc")    # summary functions
 
 
 ## If you have trouble installing them this way then use the commands below
