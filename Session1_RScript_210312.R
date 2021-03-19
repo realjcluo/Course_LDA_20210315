@@ -22,7 +22,7 @@ install.packages("lme4")          # regression functions
 install.packages("lmtest")        # likelihood ratio tests
 install.packages("psych")         # descriptive statistics
 install.packages("rlang")         # tidyverse features
-install.packages("summarytools")  # summarising Stata files
+#install.packages("summarytools")  # summarising Stata files
 install.packages("tidyr")         # tidying data
 install.packages("tidyverse")     # loading the tidyverse
 
@@ -51,7 +51,7 @@ library(lmtest)
 library(psych)
 library(rlang)
 library(sjstats)
-library(summarytools)
+#library(summarytools)
 library(tidyr)
 library(tidyverse)
 
