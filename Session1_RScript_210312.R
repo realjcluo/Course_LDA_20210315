@@ -22,21 +22,20 @@ install.packages("lme4")          # regression functions
 install.packages("lmtest")        # likelihood ratio tests
 install.packages("psych")         # descriptive statistics
 install.packages("rlang")         # tidyverse features
-#install.packages("summarytools")  # summarising Stata files
+install.packages("summarytools")  # summarising Stata files
 install.packages("tidyr")         # tidying data
 install.packages("tidyverse")     # loading the tidyverse
 
 
 ### Try to install these packages
 install.packages("sjstats") # data/variable transformations
-install.packages("Hmisc")    # summary functions
 
 
 ## If you have trouble installing them this way then use the commands below
-devtools::install_github("easystats/effectsize")     # required for 'sjstats' package
-devtools::install_github("strengejacke/sjstats")     # data/variable transformations
-devtools::install_github("ge11232002/latticeExtra")  # required for 'Hmisc' package
-devtools::install_github("harrelfe/Hmisc")           # summary functions
+#devtools::install_github("easystats/effectsize")     # required for 'sjstats' package
+#devtools::install_github("strengejacke/sjstats")     # data/variable transformations
+#devtools::install_github("ge11232002/latticeExtra")  # required for 'Hmisc' package
+#devtools::install_github("harrelfe/Hmisc")           # summary functions
 
 
 ### Load relevant packages ###
